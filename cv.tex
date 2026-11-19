@@ -1,0 +1,94 @@
+% Academic CV for the website (Dropbox/site/cv.pdf). Built 2026-11-18 from "OLIPHANT Patrick CED CV.pdf"
+% (the Census version, left untouched in Downloads and CENSUS SSS). Compile: pdflatex cv.tex
+\documentclass[11pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem,titlesec,tabularx}
+\titleformat{\section}{\large\scshape}{}{0pt}{}[\vspace{-6pt}\rule{\textwidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{12pt}{5pt}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% \entry{left bold}{right}  one line, right-aligned date
+\newcommand{\entry}[2]{\textbf{#1} \hfill #2\\}
+% \paper{url}{title}{coauthors or empty}
+\newcommand{\paper}[3]{\href{#1}{``#2''}\ifx&#3&, solo-authored\else, with #3\fi\par\smallskip}
+
+\begin{document}
+
+% ------------------------------------------------------------------ Header
+\begin{center}
+{\LARGE\textbf{Patrick David Charles Oliphant}}\\[3pt]
+Ph.D. Candidate in Finance, Gatton College of Business and Economics, University of Kentucky\\
+Expected Graduation: May 2027
+\end{center}
+\vspace{2pt}
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+Department of Finance and Quantitative Methods & Email: \href{mailto:poliphant@uky.edu}{poliphant@uky.edu} \\
+550 South Limestone & \\
+Lexington, KY 40506 & \\
+\end{tabularx}
+
+% ------------------------------------------------------------------ Education
+\section*{Education}
+\entry{University of Kentucky, Lexington, KY}{2023 -- 2027 (expected)}
+Ph.D., Finance\\
+Committee: Russell Jame (chair), Leonce Bargeron, Christopher Bollinger, Igor Cunha
+
+\medskip
+\entry{University of South Florida, Tampa, FL}{2018}
+B.A., Economics
+
+% ------------------------------------------------------------------ Research
+\section*{Research Interests}
+Empirical asset pricing, market microstructure, political economics
+
+\section*{Working Papers}
+\paper{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6670318}{The Return to Imitation: Evidence from Copy Trading on Polymarket}{}
+\paper{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7693482}{The Cost of Partisan Investing: Evidence from Municipal Bond Funds}{Igor Cunha and Thomas Mosk}
+\paper{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7123840}{Speculation by Subscription: Finfluencers and Retail Option Trading}{T.~Clifton Green, Russell Jame, and Brian Roseman}
+
+\section*{Presentations}
+\entry{2026}{}
+\hspace{1.2em}\parbox[t]{\dimexpr\textwidth-1.2em}{University of Kentucky PhD Seminar Series, Financial Management Association (FMA) Annual Meeting (Discussant), Brigham Young University (*), University of Alabama at Birmingham (*), Florida State University x2 (*), Utrecht University (*)}\\
+\entry{2025}{}
+\hspace{1.2em}University of Kentucky PhD Seminar Series, University of Kentucky Brownbag\\
+\entry{2024}{}
+\hspace{1.2em}University of Kentucky PhD Seminar Series\\[2pt]
+{\small (*) Presented by coauthor}
+
+% ------------------------------------------------------------------ Employment
+\section*{Employment}
+\entry{Graduate Research Assistant, University of Kentucky}{08/2023 -- Present}
+\entry{Experian Data Administrator, University of Kentucky}{08/2025 -- Present}
+
+% ------------------------------------------------------------------ Teaching
+\section*{Teaching Experience}
+\textbf{Instructor of Record}, University of Kentucky\\
+\begin{tabularx}{\textwidth}{@{\hspace{1.2em}}X r@{}}
+Corporate Finance (undergraduate) & Fall 2025 \\
+\multicolumn{2}{@{\hspace{2.4em}}l}{Teaching evaluation: 4.6 / 5 (department mean: 4.2 / 5)} \\
+\end{tabularx}
+
+\smallskip
+\textbf{Teaching Assistant}, University of Kentucky\\
+\begin{tabularx}{\textwidth}{@{\hspace{1.2em}}X r@{}}
+MBA: Corporate Financial Policy & Spring 2024, 2025, 2026 \\
+Undergraduate: Capital Investment and Financing Decisions & Fall 2026 \\
+\end{tabularx}
+
+% ------------------------------------------------------------------ References
+\section*{References}
+\begin{tabularx}{\textwidth}{@{}X X@{}}
+Russell Jame (Chair) & Igor Cunha \\
+Professor of Finance & Associate Professor of Finance \\
+University of Kentucky & University of Kentucky \\
+\href{mailto:russell.jame@uky.edu}{russell.jame@uky.edu} & \href{mailto:igor.cunha@uky.edu}{igor.cunha@uky.edu} \\[6pt]
+Leonce Bargeron & Christopher Bollinger \\
+Associate Professor of Finance & Professor of Economics \\
+University of Kentucky & University of Kentucky \\
+\href{mailto:leonce.bargeron@uky.edu}{leonce.bargeron@uky.edu} & \href{mailto:chris.bollinger@uky.edu}{chris.bollinger@uky.edu} \\
+\end{tabularx}
+
+\end{document}

@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs        # GitHub Pages serves the site from this folder
+  render:
+    - index.qmd           # one page, modeled on prateekmahajan.com; research.qmd and cv.qmd are not used
+
+website:
+  title: "Patrick Oliphant"
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: article
+    css: styles.css

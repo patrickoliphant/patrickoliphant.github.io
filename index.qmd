@@ -1,0 +1,48 @@
+---
+pagetitle: "Patrick Oliphant"
+---
+
+::: {.header-row}
+![](photo.jpg){.headshot fig-alt="Patrick Oliphant"}
+
+::: {.header-text}
+[Patrick Oliphant]{.site-name}
+
+Ph.D. Candidate in Finance\
+Gatton College of Business and Economics, University of Kentucky
+
+poliphant@uky.edu
+
+[CV](cv.pdf) | [Google Scholar](https://scholar.google.com/citations?user=LEwimOUAAAAJ&hl=en) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6513020) | [LinkedIn](https://www.linkedin.com/in/patrick-oliphant-a1aa561b3/)
+
+**I will be on the job market during the 2027-2028 academic year.**
+:::
+:::
+
+## Working Papers
+
+1) [The Cost of Partisan Investing: Evidence from Municipal Bond Funds](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7693482)\
+   with Igor Cunha and Thomas Mosk\
+   *Presented at:* Florida State University (2026)\*, University of Kentucky Brownbag (2025)
+
+   <details><summary>Abstract</summary>
+   We show that partisan investments are costly. Linking fund managers' party affiliation to 2.3 million municipal bond positions, we compare bonds of states governed by the manager's party with other bonds in the same portfolio and quarter. Aligned positions underperform by 8 basis points per year. The cost arises in bonds with greater credit risk, where state policy matters most, but managers' partisan bias is strongest in safer bonds, where it carries no cost. Partisanship therefore appears innocuous at the fund level. Consistent with market discipline explaining these patterns, costly partisanship survives where investors respond weakly to performance.
+   </details>
+
+2) [Speculation by Subscription: Finfluencers and Retail Option Trading](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7123840)\
+   with T. Clifton Green, Russell Jame, and Brian Roseman\
+   *Presented at:* Brigham Young University (2026)\*, University of Alabama at Birmingham (2026)\*, Florida State University (2026)\*, Utrecht University (2026)\*
+
+   <details><summary>Abstract</summary>
+   We examine the market impact, investment performance, and incentives of subscription-based option recommendation services on Discord. Recommendations emphasize speculative, short-dated contracts with low premiums and high leverage. Signed retail trading volume jumps immediately around callouts and turns negative after exit recommendations, consistent with subscribers following trade recommendations. Option prices rise following callouts but reverse over the next two hours. After accounting for transaction costs, subscribers earn significantly negative returns. Losses are largest for recommendations involving speculative, high-transaction-cost option contracts. These characteristics attract greater subscriber trading, suggesting that the incentives of subscription-based trade recommendation services may conflict with subscriber performance.
+   </details>
+
+3) [The Return to Imitation: Evidence from Copy Trading on Polymarket](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6670318)\
+   Solo-authored\
+   *Presented at:* University of Kentucky PhD Seminar Series (2026)
+
+   <details><summary>Abstract</summary>
+   Copy trading, where investors imitate the trades of others, is increasingly common on modern trading platforms, but it is unclear whether such behavior improves outcomes. We study this question using data from Polymarket, a large blockchain-based prediction market where all trades and trader histories are publicly observable. We identify systematic imitation between traders and measure the returns to copying. Copy trades outperform a follower's own non-copy trades within the same market by 1.62 percentage points. These findings suggest that transparency enables investors to identify whom to copy, and that imitation improves trading performance.
+   </details>
+
+\* Presented by a coauthor.

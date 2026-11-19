@@ -1,0 +1,8 @@
+.quarto/
+.DS_Store
+*conflicted copy*
+*.aux
+*.log
+*.out
+index_files/
+research_files/
